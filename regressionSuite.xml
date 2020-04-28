@@ -6,7 +6,6 @@
 			<class name="tests.SearchProductTest" />
 			<class name="tests.ContactUsTest" />
 			<class name="tests.EmailFriendTest" />
-			<class name="tests.ChangeCurrencyTest" />
 		</classes>
 	</test>
 </suite> 
