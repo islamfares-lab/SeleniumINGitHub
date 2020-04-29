@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import pages.HMHoverPage;
@@ -17,6 +18,6 @@ public class Hoverst extends TestBase{
 		Object.selectMusicMenue();
 		
 
-		//Assert.assertTrue(driver.getCurrentUrl().contains("bath"));
+		Assert.assertTrue(driver.getCurrentUrl().contains("bath"));
 	}
 }

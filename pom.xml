@@ -145,6 +145,9 @@
 						<suiteXmlFiles>
 							<suiteXmlFile>${testNGSuite}</suiteXmlFile>
 						</suiteXmlFiles>
+						<excludes>
+							**/CucumberRunner.java
+						</excludes>
 					</configuration>
 				</plugin>
 				<!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
