@@ -13,11 +13,9 @@ public class Hoverst extends TestBase{
 	@Test
 	public void notificationMassege() throws InterruptedException 
 	{
-		Thread.sleep(3000);
 		Object = new HMHoverPage(driver);
 		Object.selectMusicMenue();
-		
-
+		Thread.sleep(1000);
 		Assert.assertTrue(driver.getCurrentUrl().contains("bath"));
 	}
 }
