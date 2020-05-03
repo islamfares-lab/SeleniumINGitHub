@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="22754" started-at="2020-04-30T12:14:46 EET" finished-at="2020-04-30T12:15:09 EET">
+    <groups>
+    </groups>
+    <test name="Chrome Regression Test" duration-ms="22754" started-at="2020-04-30T12:14:46 EET" finished-at="2020-04-30T12:15:09 EET">
+      <class name="tests.MyAccountParallelTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:tests.MyAccountParallelTest@1de6932a]" name="setUp" is-config="true" duration-ms="11592" started-at="2020-04-30T12:14:46 EET" finished-at="2020-04-30T12:14:58 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="UserCanRegisterSuccessfully()[pri:1, instance:tests.MyAccountParallelTest@1de6932a]" name="UserCanRegisterSuccessfully" duration-ms="4206" started-at="2020-04-30T12:14:58 EET" finished-at="2020-04-30T12:15:02 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserCanRegisterSuccessfully -->
+        <test-method status="PASS" signature="RegisteredUserCanChangePassword()[pri:2, instance:tests.MyAccountParallelTest@1de6932a]" name="RegisteredUserCanChangePassword" duration-ms="3035" started-at="2020-04-30T12:15:02 EET" finished-at="2020-04-30T12:15:05 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisteredUserCanChangePassword -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.MyAccountParallelTest@1de6932a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-04-30T12:15:02 EET" finished-at="2020-04-30T12:15:02 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UserCanRegisterSuccessfully status=SUCCESS method=MyAccountParallelTest.UserCanRegisterSuccessfully()[pri:1, instance:tests.MyAccountParallelTest@1de6932a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.MyAccountParallelTest@1de6932a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-04-30T12:15:05 EET" finished-at="2020-04-30T12:15:05 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisteredUserCanChangePassword status=SUCCESS method=MyAccountParallelTest.RegisteredUserCanChangePassword()[pri:2, instance:tests.MyAccountParallelTest@1de6932a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="RegisterdUserCanLogout()[pri:3, instance:tests.MyAccountParallelTest@1de6932a]" name="RegisterdUserCanLogout" duration-ms="958" started-at="2020-04-30T12:15:05 EET" finished-at="2020-04-30T12:15:06 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterdUserCanLogout -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.MyAccountParallelTest@1de6932a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="1" started-at="2020-04-30T12:15:06 EET" finished-at="2020-04-30T12:15:06 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterdUserCanLogout status=SUCCESS method=MyAccountParallelTest.RegisterdUserCanLogout()[pri:3, instance:tests.MyAccountParallelTest@1de6932a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="RegisterdUserCanLogin()[pri:4, instance:tests.MyAccountParallelTest@1de6932a]" name="RegisterdUserCanLogin" duration-ms="2897" started-at="2020-04-30T12:15:06 EET" finished-at="2020-04-30T12:15:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterdUserCanLogin -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.MyAccountParallelTest@1de6932a]" name="stopDriver" is-config="true" duration-ms="41" started-at="2020-04-30T12:15:09 EET" finished-at="2020-04-30T12:15:09 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.MyAccountParallelTest@1de6932a]" name="takeScreenShotOnFailure" is-config="true" duration-ms="0" started-at="2020-04-30T12:15:09 EET" finished-at="2020-04-30T12:15:09 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterdUserCanLogin status=SUCCESS method=MyAccountParallelTest.RegisterdUserCanLogin()[pri:4, instance:tests.MyAccountParallelTest@1de6932a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+      </class> <!-- tests.MyAccountParallelTest -->
+    </test> <!-- Chrome Regression Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
