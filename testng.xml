@@ -17,7 +17,6 @@
 			<class name="tests.SearchProductTest" />
 			<class name="tests.SearchProductUsingAutoSuggest" />
 			<class name="tests.UserRegistrationTest" />
-			<class name="tests.Hoverst" />
 		</classes>
 	</test>
 </suite> 
