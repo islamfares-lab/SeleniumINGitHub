@@ -15,9 +15,10 @@ public class ContactUsTest extends TestBase
 	String enquiry = "Hello fOx , this is for test";
 
 	@Test
-	public void UserCanUseContactUs() {
+	public void UserCanUseContactUs() throws InterruptedException {
 		home = new HomePage(driver);
 		home.openContactUsPage();
+		Thread.sleep(1000);
 		contactPage = new ContactUsPage(driver);
 		contactPage.ContactUs(fullName, email, enquiry);
 		Assert.assertTrue(contactPage.successMassege.getText()
