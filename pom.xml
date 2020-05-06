@@ -104,12 +104,12 @@
 	</dependencies>
 	<profiles>
 		<profile>
-			<id>regression</id>
+			<id>terno</id>
 			<activation>
 				<activeByDefault>true</activeByDefault>
 				<property>
-					<name>enviroment</name>
-					<value>regression</value>
+					<name>environment</name>
+					<value>terno</value>
 				</property>
 			</activation>
 			<properties>
@@ -121,7 +121,7 @@
 			<activation>
 				<activeByDefault>true</activeByDefault>
 				<property>
-					<name>enviroment</name>
+					<name>environment</name>
 					<value>full</value>
 				</property>
 			</activation>
