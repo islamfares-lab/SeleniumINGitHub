@@ -27,7 +27,7 @@ public class EmailFriendTest extends TestBase
 		homeObject = new HomePage(driver);
 		homeObject.openRegistrationPage();
 		registerObject = new UserRegistrationPage(driver);
-		registerObject.userRegistration("Islam","Fares","islamfaresfoxsasrrl359@gmail.com","12345678");
+		registerObject.userRegistration("Islam","Fares","islamescrxsasrzu359@gmail.com","12345678");
 		Assert.assertTrue(registerObject.successnotification.getText().contains("Your registration completed"));
 	}
 	// 2- Search for Product 
@@ -46,8 +46,7 @@ public class EmailFriendTest extends TestBase
 	}
 	// 3- Email to Friend
 	@Test(priority = 3)
-	public void RegisteredUserCanSendProductToFriend() 
-	{
+	public void RegisteredUserCanSendProductToFriend() throws InterruptedException {
 		detailsObject.openSendEmail();
 		EmailObject = new EmailPage(driver);
 		EmailObject.sendEmailToFriend("aaak@tte.com", "Hello Friend");

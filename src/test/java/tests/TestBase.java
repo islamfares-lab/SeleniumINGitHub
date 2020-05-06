@@ -46,7 +46,7 @@ public class TestBase extends AbstractTestNGCucumberTests
 	}
 	@BeforeSuite
 	@Parameters({"browser"})
-	public void startDriver(@Optional("chrome") String browserName) 
+	public void startDriver(@Optional("chrome") String browserName)
 	{
 		if (browserName.equalsIgnoreCase("chrome")) {
 			System.setProperty("webdriver.chrome.driver",
