@@ -12,7 +12,7 @@ pipeline {
                 // Get some code from a GitHub repository
                 git 'https://github.com/islamfares-lab/SeleniumINGitHub.git '
 
-                bat 'mvn test -Pregression'
+                bat 'mvn test -Pfull'
             }
             post {
                 // If Maven was able to run the tests, even if some of the test
